@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "TaiClone.sln",
+    "projects": [
+      "TaiClone.Game\\TaiClone.Game.csproj",
+      "TaiClone.Resources\\TaiClone.Resources.csproj",
+      "TaiClone.iOS\\TaiClone.iOS.csproj"
+    ]
+  }
+}
