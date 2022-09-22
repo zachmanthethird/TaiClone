@@ -3,7 +3,6 @@ using osu.Framework.Graphics;
 using osu.Framework.Graphics.Containers;
 using osu.Framework.IO.Stores;
 using osuTK;
-using TaiClone.Resources;
 
 namespace TaiClone.Game
 {
@@ -28,7 +27,7 @@ namespace TaiClone.Game
         [BackgroundDependencyLoader]
         private void load()
         {
-            Resources.AddStore(new DllResourceStore(typeof(TaiCloneResources).Assembly));
+            Resources.AddStore(new DllResourceStore("TaiClone.Resources.dll"));
         }
     }
 }
